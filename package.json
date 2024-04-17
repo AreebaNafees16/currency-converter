@@ -1,0 +1,24 @@
+{
+  "name": "@areeba16/currency-converter",
+  "version": "1.0.0",
+  "description": "A currency converter efficiently converts the value of one currency into another, facilitating seamless transactions and financial planning across different currencies.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^9.0.7"
+  }
+}
